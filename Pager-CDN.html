@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    <link href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" rel="stylesheet" />
+    <script src="itellu.ui.pager.js"></script>
+    <script>
+        $(function () {
+            $("#pager").pager().bind("pagerindexchanged", function (e, index) {
+               //do something alert(index);
+            });
+        });
+    </script>
+    <style>
+        .itellu-pager {
+        }
+
+            .itellu-pager ul.pager-links {
+                padding: 0;
+                margin: 0;
+                list-style: none;
+                float: left;
+            }
+
+                .itellu-pager ul.pager-links li {
+                    padding: 0;
+                    margin: 0;
+                    list-style: none;
+                    float: left;
+                    margin: 0 2px;
+                    display: block;
+                    padding: 3px 5px;
+                   
+                    cursor: pointer;
+                }
+
+                    .itellu-pager ul.pager-links li.number-link {
+                        
+                    }
+
+                    .itellu-pager ul.pager-links li.disable {
+                        
+                    }
+
+                    .itellu-pager ul.pager-links li.active {
+                      
+                    }
+
+                    .itellu-pager ul.pager-links li span {
+                    }
+
+            .itellu-pager ul.pager-info {
+            }
+    </style>
+    <body>
+        <div id="pager" class="itellu-pager"></div>
+    </body>
+</html>
