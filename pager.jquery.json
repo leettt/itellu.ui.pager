@@ -1,0 +1,37 @@
+﻿{
+    "name": "ipager",
+    "title": "Itellu UI Pager",
+    "description": "Itellu UI Pager is a jQuery UI Widget for paging.",
+    "keywords": [
+        "pager",
+        "itellu",
+        "ui",
+        "widget",
+        "jquery"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Saharan Lv",
+        "url": "https://github.com/leettt/itellu.ui.pager"
+    },
+    "maintainers": [
+        {
+            "name": "Saharan Lv",
+            "email": "saharan@foxmail.com",
+            "url": "http://itellu.net"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/leettt/itellu.ui.pager/issues",
+    "homepage": "https://github.com/leettt/itellu.ui.pager",
+    "docs": "https://github.com/leettt/itellu.ui.pager",
+    "download": "https://github.com/leettt/itellu.ui.pager.git",
+    "dependencies": {
+        "jquery": ">=1.9.1"
+    }
+}
